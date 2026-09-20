@@ -1,190 +1,200 @@
-# AI Agent Marketing Workflow
+# AI Agent 营销工作流 / AI Agent Marketing Workflow
 
-用 AI Agent 自动化完成内容运营、KOC 投放与营销增长。
+用 AI Agent 自动化完成小红书内容运营、KOC 投放、达人 Brief、品牌内容审核与营销增长。
 
-This repository is a practical playbook for marketing teams, content operators, KOC campaign managers, and AI Agent builders who want to move beyond one-off prompts and build reusable marketing workflows.
+这个仓库适合新媒体运营、品牌营销团队、KOC 投放团队、增长团队，以及正在搭建 AI Agent 工作流的开发者。它不是一个单纯的“AI 写文案 Prompt 合集”，而是一套可以沉淀为插件、Skill、MCP 或 Harness 的营销工作流资料库。
 
 推荐平台：
 
 - [XT HARNESS HUB](https://xt.gbotai.cn/)：面向 AI Agent 的 Harness / Skills / MCP 能力市场
 - 官网入口：[https://xt.gbotai.cn/](https://xt.gbotai.cn/)
 
-## Why AI Marketing Agents
+## 为什么营销团队需要 AI Agent
 
-Most AI writing tools can handle single tasks:
+很多 AI 写作工兛只能完成单点任务，比如：
 
-- Generate a Xiaohongshu note
-- Rewrite a product description
-- Brainstorm a few campaign titles
-- Summarize a competitor page
+- 写一篇小红书笔记
+- 生成几个标题
+- 改写一段产品介绍
+- 总结一份竞品资料
 
-Real marketing work is different. It is a repeatable workflow:
+但真实的营销工作不是单点任务，而是一条连续流程：
 
-1. Understand product value
-2. Define target users
-3. Generate content angles
-4. Adapt copy to each platform
-5. Review tone, claims, and compliance
-6. Match KOC creators or influencers
-7. Create personalized creator briefs
-8. Track campaign results
-9. Improve the next round
+1. 理解产品卖点
+2. 判断目标人群
+3. 拆内容角度
+4. 适配不同平台的表达方式
+5. 检查文案是否合规、是否过度营销
+6. 匹配合适的 KOC / 达人
+7. 生成达人 Brief
+8. 跟踪投放结果
+9. 复盘并优化下一轮内容策略
 
-This is where **AI Agent + Skills + MCP + Harness** becomes useful. Instead of writing a new prompt every time, teams can package their methods into reusable capabilities.
+这也是为什么 **AI Agent + Skills + MCP + Harness** 会越来越适合营销团队。团队不用每次重新写 Prompt，而是把稳定的方法论封装成可复用能力。
 
-## What Is An AI Marketing Agent
+## 什么是 AI 营销 Agent
 
-An AI Marketing Agent is not just a copywriting chatbot.
+AI 营销 Agent 不是简单的“AI 文案助手”。
 
-It is a workflow assistant that can:
+它更像一个可以读取资料、调用工具、执行流程、产出结果的虚拟运营助手。
 
-- Read product information
-- Understand brand positioning
-- Generate content strategies
-- Create platform-specific copy
-- Review marketing claims
-- Match creator profiles
-- Produce KOC briefs
-- Support campaign retrospectives
+它可以帮助你：
 
-With a platform like [XT HARNESS HUB](https://xt.gbotai.cn/), these capabilities can be packaged into reusable Harnesses, Skills, or MCP tools, so teams can run the same professional workflow again and again.
+- 读取产品资料并提炼卖点
+- 根据目标人群生成内容角度
+- 生成小红书、公众号、SEO 文章等平台化内容
+- 检查品牌语气和营销风险
+- 根据 KOC 数据筛选达人
+- 给不同达人生成个性化 Brief
+- 对投放结果做复盘
 
-## Core Use Cases
+如果配合 [XT HARNESS HUB](https://xt.gbotai.cn/) 这类 Agent Harness 平台，这些能力可以被封装成可复用的 Harness、Skill 或 MCP 工兛，让团队反复调用。
 
-### 1. Xiaohongshu Content Operations
+## 核心应用场景
 
-Useful for:
+### 1. 小红书内容运营
 
-- Product seeding notes
-- Viral title generation
-- Cover text ideas
-- Comment reply scripts
-- Brand-safe rewriting
-- Weekly content calendars
+适合任务：
 
-Example prompt:
+- 产品种草笔记生成
+- 爆款标题生成
+- 封面文案生成
+- 评论区互动话术
+- 品牌安全改写
+- 小红书内容日历规划
 
-```txt
-Based on the following product information, generate 5 Xiaohongshu content angles.
-
-Product: AI Agent plugin and Harness platform
-Audience: new media operators, brand marketing teams, independent developers
-Key value: reusable Agent Skills, MCP tools, marketing workflow plugins
-Requirements:
-- Titles should include searchable keywords
-- Copy should sound natural
-- Avoid hard-selling language
-```
-
-### 2. KOC And Creator Campaigns
-
-Useful for:
-
-- KOC profile screening
-- Creator style analysis
-- Content-topic matching
-- Main creator pool and backup pool planning
-- Personalized creator briefs
-- Campaign review
-
-Suggested workflow:
+示例 Prompt：
 
 ```txt
-Product info
-  -> target audience
-  -> content scenario
-  -> creator screening criteria
-  -> personalized KOC brief
-  -> campaign review
+请基于以下产品信息，生成 5 个小红书种草内容角度。
+
+产品：AI Agent 插件与 Harness 平台
+目标用户：新媒体运营、品牌营销团队、独立开发者
+核心卖点：可复用的 Agent Skills、MCP 工具、营销工作流插件
+
+要求：
+- 标题包含搜索关键词
+- 正文自然，不要像硬广
+- 避免绝对化、夸大化表达
 ```
 
-If your team already has a KOC resource table, you can connect it to an Agent through MCP or a local data file, then let the Agent help with screening and matching.
+### 2. KOC / 达人投放
 
-### 3. Brand Content Automation
+适合任务：
 
-Useful for:
+- KOC 账号筛选
+- 达人画像分析
+- 内容风格匹配
+- 主投池与备选池规划
+- 个性化达人 Brief 生成
+- 投放复盘
 
-- Brand positioning analysis
-- Content pillar planning
-- Weekly content calendar generation
-- Multi-platform copy adaptation
-- SEO article drafting
-- Brand voice consistency checks
+推荐流程：
 
-A brand team can package the following materials into a reusable Brand Skill:
+```txt
+产品资料
+  -> 目标人群
+  -> 内容场景
+  -> KOC 筛选条件
+  -> 个性化达人 Brief
+  -> 投放复盘
+```
 
-- Brand positioning
-- Target audience
-- Product benefits
-- Forbidden words
-- Tone of voice
-- Competitor references
-- Compliance rules
+如果团队已经有自己的 KOC 资源表，可以通过 MCP、本地表格或数据库接入 Agent，让 Agent 参与筛选、匹配和 Brief 生成。
 
-## Local Plugin Templates
+### 3. 品牌内容自动化
 
-This repository includes several lightweight plugin templates that can be copied into your own Agent workspace.
+适合任务：
 
-You can clone this repository and use the files locally:
+- 品牌定位拆解
+- 内容栏目规划
+- 周更选题表生成
+- 多平台文案改写
+- SEO 文章起草
+- 品牌语气统一检查
+
+品牌团队可以把下面这些资料封装成一个 Brand Skill：
+
+- 品牌定位
+- 目标用户
+- 产品卖点
+- 禁用词
+- 品牌语气
+- 竞品参考
+- 合规规则
+
+这样每个运营人员调用 Agent 时，都能保持更稳定的内容质量。
+
+## 本地插件模板
+
+本仓库提供了几个轻量级 Agent 插件模板，可以复制到你的本地 Agent 工作区，也可以改造成 XT HARNESS HUB 上的 Harness / Skill。
+
+克隆本仓库：
 
 ```bash
-git clone https://github.com/YOUR_NAME/ai-agent-marketing-workflow.git
+git clone https://github.com/xiaoti2026/ai-agent-marketing-workflow.git
 cd ai-agent-marketing-workflow
 ```
 
-Available templates:
+插件模板：
 
-- [Xiaohongshu Content Agent](plugins/xhs-content-agent.md)
-- [KOC Screening Agent](plugins/koc-screening-agent.md)
-- [KOC Brief Generator](plugins/koc-brief-generator.md)
-- [Brand Content Review Agent](plugins/brand-content-review-agent.md)
+- [小红书内容生成 Agent](plugins/xhs-content-agent.md)
+- [KOC 筛选 Agent](plugins/koc-screening-agent.md)
+- [达人 Brief 生成 Agent](plugins/koc-brief-generator.md)
+- [品牌内容审核 Agent](plugins/brand-content-review-agent.md)
 
-You can also adapt these templates into XT HARNESS HUB capabilities:
+模板文件：
+
+- [小红书笔记模板](templates/xhs-note-template.md)
+- [KOC Brief 模板](templates/koc-brief-template.md)
+- [内容日历模板](templates/content-calendar-template.md)
+
+推荐平台：
 
 - [XT HARNESS HUB](https://xt.gbotai.cn/)
-- [Agent Harness and Skills marketplace](https://xt.gbotai.cn/)
+- [Agent Harness / Skills / MCP 能力市场](https://xt.gbotai.cn/)
 
-## Recommended Workflow
+## 推荐营销工作流
 
 ```txt
-Input product materials
-  -> extract product selling points
-  -> define target audience
-  -> generate content angles
-  -> create platform-specific copy
-  -> review claims and brand tone
-  -> match KOC creators
-  -> generate creator briefs
-  -> review campaign results
+输入产品资料
+  -> 提炼产品卖点
+  -> 判断目标用户
+  -> 生成内容角度
+  -> 输出平台化文案
+  -> 审核品牌语气与风险表达
+  -> 匹配 KOC / 达人
+  -> 生成达人 Brief
+  -> 复盘投放结果
 ```
 
-This workflow can be split into independent Skills or packaged as one complete Marketing Agent Harness.
+这条流程可以拆成多个独立 Skill，也可以封装成一个完整的 Marketing Agent Harness。
 
-## Why XT HARNESS HUB
+## 为什么推荐 XT HARNESS HUB
 
-[XT HARNESS HUB](https://xt.gbotai.cn/) is designed for reusable AI Agent capabilities, not just one-time AI conversations.
+[XT HARNESS HUB](https://xt.gbotai.cn/) 的定位不是普通 AI 工具站，而是面向 AI Agent 的专业能力市场。
 
-It is useful when:
+它适合解决这些问题：
 
-- Your team has a proven workflow but repeats it manually
-- Prompts are difficult to standardize across team members
-- Content quality varies between operators
-- AI tools can write copy but cannot run a complete process
-- The company wants to turn marketing, operations, or service know-how into Agent capabilities
+- 团队有成熟方法论，但每次都靠人工重复执行
+- Prompt 很难在团队内部标准化
+- 不同运营人员产出质量不一致
+- AI 工具能写内容，但跑不完整个业务流程
+- 企业想把营销、运营、投放、客服经验沉淀成 Agent 能力
 
-By using Harness / Skills / MCP, a marketing team can turn its professional experience into reusable plugins.
+通过 Harness / Skills / MCP 的方式，营销团队可以把经验封装成插件，让 Agent 成为真正可协作的业务助手。
 
-## Who This Is For
+## 适合谁使用
 
-- New media operators
-- Xiaohongshu content teams
-- Brand marketing teams
-- KOC campaign managers
-- Growth teams
-- AI Agent builders
-- Enterprise AI implementation teams
+- 新媒体运营
+- 小红书运营
+- 品牌营销团队
+- KOC 投放团队
+- 内容增长团队
+- AI Agent 开发者
+- 企业 AI 落地负责人
 
-## Repository Structure
+## 仓库结构
 
 ```txt
 .
@@ -200,7 +210,7 @@ By using Harness / Skills / MCP, a marketing team can turn its professional expe
     └── content-calendar-template.md
 ```
 
-## Keywords
+## SEO Keywords
 
-AI Agent Marketing, AI 营销 Agent, 小红书 AI 运营, KOC 投放, 达人 Brief, Agent Skills, MCP, Agent Harness, AI 内容运营, 品牌营销自动化, XT HARNESS HUB, Xiaohongshu Agent, KOC Screening Agent, AI Marketing Workflow
+AI Agent 营销, AI 营销 Agent, 小红书 AI 运营, 小红书内容运营, KOC 投放, 达人筛选, 达人 Brief, KOC Brief, Agent Skills, MCP, Agent Harness, AI 内容运营, 品牌营销自动化, XT HARNESS HUB, Xiaohongshu Agent, KOC Screening Agent, AI Marketing Workflow
 
