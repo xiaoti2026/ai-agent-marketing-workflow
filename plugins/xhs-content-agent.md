@@ -1,57 +1,57 @@
-# Xiaohongshu Content Agent
+# 小红书内容生成 Agent
 
-Purpose: generate Xiaohongshu-style product seeding content with searchable titles, natural copy, and platform-aware wording.
+用途：生成适合小红书平台的产品种草内容，包括搜索型标题、自然正文、封面文案、话题标签和风险表达检查。
 
-## Inputs
+## 输入信息
 
-- Product name
-- Product URL
-- Target audience
-- Key selling points
-- Price or offer
-- Brand tone
-- Forbidden claims
+- 产品名称
+- 产品链接
+- 目标用户
+- 核心卖点
+- 价格或活动信息
+- 品牌语气
+- 禁用词或高风险表达
 
-## Workflow
+## 工作流
 
-1. Extract product selling points
-2. Convert selling points into user scenarios
-3. Generate 5 content angles
-4. Write 3 title options for each angle
-5. Draft the note body
-6. Add hashtags
-7. Review exaggerated or risky claims
+1. 提炼产品卖点
+2. 把卖点转成用户真实场景
+3. 生成 5 个内容角度
+4. 为每个角度生成标题
+5. 起草完整笔记正文
+6. 补充话题标签
+7. 检查夸大、绝对化或平台风险表达
 
-## Prompt Template
+## Prompt 模板
 
 ```txt
-You are a Xiaohongshu content strategist.
+你是一名小红书内容策划。
 
-Product:
+产品：
 {{product}}
 
-Target audience:
+目标用户：
 {{audience}}
 
-Selling points:
+核心卖点：
 {{selling_points}}
 
-Generate:
-1. 5 content angles
-2. 10 searchable titles
-3. 1 complete note body
-4. 8 hashtags
-5. Risky expressions to avoid
+请输出：
+1. 5 个内容角度
+2. 10 个搜索型标题
+3. 1 篇完整小红书笔记正文
+4. 8 个话题标签
+5. 需要避免的风险表达
 
-Requirements:
-- Natural, useful, and not hard-selling
-- Include search keywords in titles
-- Avoid absolute claims
+要求：
+- 自然、有用，不要像硬广
+- 标题包含搜索关键词
+- 避免绝对化承诺
 ```
 
-## Local Usage
+## 本地使用
 
-Copy this file into your Agent workspace and connect it with your preferred AI Agent framework or Harness platform.
+把这个文件复制到你的 Agent 工作区，根据自己的产品资料替换变量即可。
 
-Recommended platform: [XT HARNESS HUB](https://xt.gbotai.cn/)
+推荐平台：[XT HARNESS HUB](https://xt.gbotai.cn/)
 

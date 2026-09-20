@@ -1,38 +1,38 @@
-# KOC Brief Template
+# KOC Brief 模板
 
-## Campaign Background
-
-
-## Product
+## 项目背景
 
 
-## Target Audience
+## 产品信息
 
 
-## Creator Angle
+## 目标用户
 
 
-## Key Selling Points
+## 达人内容角度
+
+
+## 核心卖点
 
 1. 
 2. 
 3. 
 
-## Required Scenes
+## 必须出现场景
 
 
-## Must Include
+## 必须包含
 
 
-## Must Avoid
+## 必须避免
 
 
-## Deliverables
+## 交付物
 
 
-## Deadline
+## 截止时间
 
 
-## Review Criteria
+## 验收标准
 
 

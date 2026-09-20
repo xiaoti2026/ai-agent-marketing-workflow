@@ -1,51 +1,51 @@
-# Brand Content Review Agent
+# 品牌内容审核 Agent
 
-Purpose: review generated content for brand voice, factual accuracy, platform fit, and marketing compliance.
+用途：审核 AI 生成内容是否符合品牌语气、事实表达、平台规则和营销合规要求。
 
-## Inputs
+## 输入信息
 
-- Draft content
-- Brand voice rules
-- Product claims
-- Forbidden words
-- Platform
-- Target audience
+- 待审核文案
+- 品牌语气规则
+- 产品真实卖点
+- 禁用词
+- 发布平台
+- 目标用户
 
-## Review Dimensions
+## 审核维度
 
-- Brand tone consistency
-- Exaggerated claims
-- Unsupported promises
-- Platform suitability
-- Search keyword usage
-- Call-to-action clarity
-- Readability
+- 品牌语气是否一致
+- 是否存在夸大承诺
+- 是否出现无法证明的效果表达
+- 是否适合目标平台
+- 搜索关键词是否自然
+- 行动引导是否清晰
+- 阅读体验是否顺畅
 
-## Prompt Template
+## Prompt 模板
 
 ```txt
-You are a brand content reviewer.
+你是一名品牌内容审核专家。
 
-Draft:
+待审核文案：
 {{draft}}
 
-Brand voice:
+品牌语气：
 {{brand_voice}}
 
-Forbidden expressions:
+禁用表达：
 {{forbidden_expressions}}
 
-Review the draft and output:
-1. Overall score
-2. Problems found
-3. Risky claims
-4. Rewrite suggestions
-5. Final polished version
+请审核文案并输出：
+1. 综合评分
+2. 发现的问题
+3. 高风险表达
+4. 修改建议
+5. 最终优化版本
 ```
 
-## Local Usage
+## 本地使用
 
-Use this as a review step after content generation and before publication.
+建议把它放在内容生成之后、正式发布之前，作为固定审核步骤。
 
-Recommended platform: [XT HARNESS HUB](https://xt.gbotai.cn/)
+推荐平台：[XT HARNESS HUB](https://xt.gbotai.cn/)
 

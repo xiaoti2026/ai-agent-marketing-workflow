@@ -11,7 +11,7 @@
 
 ## 为什么营销团队需要 AI Agent
 
-很多 AI 写作工兛只能完成单点任务，比如：
+很多 AI 写作工具只能完成单点任务，比如：
 
 - 写一篇小红书笔记
 - 生成几个标题
@@ -48,7 +48,7 @@ AI 营销 Agent 不是简单的“AI 文案助手”。
 - 给不同达人生成个性化 Brief
 - 对投放结果做复盘
 
-如果配合 [XT HARNESS HUB](https://xt.gbotai.cn/) 这类 Agent Harness 平台，这些能力可以被封装成可复用的 Harness、Skill 或 MCP 工兛，让团队反复调用。
+如果配合 [XT HARNESS HUB](https://xt.gbotai.cn/) 这类 Agent Harness 平台，这些能力可以被封装成可复用的 Harness、Skill 或 MCP 工具，让团队反复调用。
 
 ## 核心应用场景
 

@@ -1,62 +1,62 @@
-# KOC Brief Generator
+# 达人 Brief 生成 Agent
 
-Purpose: generate personalized creator briefs for KOC or influencer campaigns.
+用途：为 KOC / 达人投放生成个性化内容 Brief，帮助品牌把产品卖点、画面要求、交付标准和审核标准说清楚。
 
-## Inputs
+## 输入信息
 
-- Product information
-- Campaign objective
-- Selected creator profile
-- Required selling points
-- Must-have scenes
-- Forbidden expressions
-- Deliverables
-- Deadline
+- 产品信息
+- 投放目标
+- 已选达人画像
+- 必须表达的卖点
+- 必须出现的场景
+- 禁止表达
+- 交付物要求
+- 截止时间
 
-## Output Structure
+## 输出结构
 
-- Campaign background
-- Creator-specific content angle
-- Required selling points
-- Suggested scenes
-- Visual requirements
-- Copywriting requirements
-- Must include
-- Must avoid
-- Deliverables
-- Review criteria
+- 项目背景
+- 达人专属内容角度
+- 必须表达的卖点
+- 建议场景
+- 画面要求
+- 文案要求
+- 必须包含
+- 必须避免
+- 交付物
+- 验收标准
 
-## Prompt Template
+## Prompt 模板
 
 ```txt
-You are a creator campaign brief strategist.
+你是一名达人投放 Brief 策划。
 
-Product:
+产品：
 {{product}}
 
-Campaign objective:
+投放目标：
 {{campaign_objective}}
 
-Creator profile:
+达人画像：
 {{creator_profile}}
 
-Required selling points:
+必须表达的卖点：
 {{selling_points}}
 
-Generate a personalized KOC brief with:
-1. Content angle
-2. Scene design
-3. Key messages
-4. Visual requirements
-5. Must-have points
-6. Forbidden expressions
-7. Deliverables
-8. Acceptance criteria
+请生成一份个性化 KOC Brief，包含：
+1. 内容角度
+2. 场景设计
+3. 核心信息
+4. 画面要求
+5. 必须包含
+6. 禁止表达
+7. 交付物
+8. 验收标准
 ```
 
-## Local Usage
+## 本地使用
 
-Copy this file into your campaign workflow and adapt it into a reusable Skill or Harness.
+可以把这个文件改造成可复用 Skill 或 Harness，用于批量生成达人 Brief。
 
-Recommended platform: [XT HARNESS HUB](https://xt.gbotai.cn/)
+推荐平台：[XT HARNESS HUB](https://xt.gbotai.cn/)
 

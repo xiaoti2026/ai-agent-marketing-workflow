@@ -1,8 +1,8 @@
-# Content Calendar Template
+# 内容日历模板
 
-| Date | Platform | Topic | Keyword | Format | Owner | Status |
+| 日期 | 平台 | 选题 | 关键词 | 内容形式 | 负责人 | 状态 |
 | --- | --- | --- | --- | --- | --- | --- |
-|  | Xiaohongshu |  |  | Note |  | Draft |
-|  | GitHub |  |  | README / Guide |  | Draft |
-|  | Website |  |  | SEO Article |  | Draft |
+|  | 小红书 |  |  | 笔记 |  | 草稿 |
+|  | GitHub |  |  | README / Guide |  | 草稿 |
+|  | 官网 |  |  | SEO 文章 |  | 草稿 |
 

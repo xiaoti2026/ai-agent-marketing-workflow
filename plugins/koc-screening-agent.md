@@ -1,56 +1,56 @@
-# KOC Screening Agent
+# KOC 筛选 Agent
 
-Purpose: help marketing teams screen KOC creators based on campaign goals, audience fit, content style, and collaboration suitability.
+用途：根据品牌投放目标、目标人群、内容风格和达人数据，帮助团队筛选适合合作的 KOC / 达人。
 
-## Inputs
+## 输入信息
 
-- Campaign goal
-- Product category
-- Target audience
-- Platform
-- Creator list or creator data table
-- Budget range
-- Required content style
+- 投放目标
+- 产品品类
+- 目标用户
+- 投放平台
+- 达人列表或达人数据表
+- 预算范围
+- 需要的内容风格
 
-## Screening Dimensions
+## 筛选维度
 
-- Audience match
-- Content category match
-- Visual style match
-- Engagement quality
-- Commercial content ratio
-- Brand safety
-- Past product relevance
-- Main pool / backup pool recommendation
+- 粉丝人群匹配度
+- 内容品类匹配度
+- 视觉风格匹配度
+- 互动质量
+- 商单比例
+- 品牌安全风险
+- 过往内容相关性
+- 主投池 / 备选池推荐
 
-## Prompt Template
+## Prompt 模板
 
 ```txt
-You are a KOC campaign screening assistant.
+你是一名 KOC 投放筛选助手。
 
-Campaign goal:
+投放目标：
 {{campaign_goal}}
 
-Product:
+产品：
 {{product}}
 
-Target audience:
+目标用户：
 {{audience}}
 
-Creator data:
+达人数据：
 {{creator_data}}
 
-Please output:
-1. Main creator pool
-2. Backup creator pool
-3. Rejected creators and reasons
-4. Suggested content angle for each selected creator
-5. Risk notes
+请输出：
+1. 主投达人池
+2. 备选达人池
+3. 不建议合作的达人及原因
+4. 每个入选达人的建议内容角度
+5. 风险提示
 ```
 
-## Local Usage
+## 本地使用
 
-Use this template with CSV, spreadsheet, database, or MCP-connected creator data.
+可以配合 CSV、Excel、数据库或 MCP 接入达人数据使用。
 
-Recommended platform: [XT HARNESS HUB](https://xt.gbotai.cn/)
+推荐平台：[XT HARNESS HUB](https://xt.gbotai.cn/)
 

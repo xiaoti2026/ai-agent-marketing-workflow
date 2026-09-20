@@ -1,30 +1,30 @@
-# Xiaohongshu Note Template
+# 小红书笔记模板
 
-## Title Options
+## 标题备选
 
 1. 
 2. 
 3. 
 
-## Opening Hook
+## 开头钩子
 
 
-## User Scenario
+## 用户场景
 
 
-## Product Value
+## 产品价值
 
 
-## Personal Experience / Use Case
+## 使用体验 / 案例
 
 
-## Practical Tips
+## 实用建议
 
 
-## Soft CTA
+## 轻行动引导
 
 
-## Hashtags
+## 话题标签
 
 #
 
